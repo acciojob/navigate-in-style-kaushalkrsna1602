@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+/* Styling the nav-bar */
+.navbar {
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+
+/* Removing bullets from the list and displaying items inline */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling the list items */
+.navbar ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+/* Basic styling for the content */
+.content {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.content h1 {
+    color: #333;
+}
+
+.content p {
+    color: #666;
+}
