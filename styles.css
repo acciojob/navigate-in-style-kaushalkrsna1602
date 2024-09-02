@@ -1,32 +1,29 @@
-/* Styling the nav-bar */
-.navbar {
-    background-color: #D3D3D3;
-    padding: 10px;
+/* Style for the navigation bar */
+.nav-bar {
+    background-color: #D3D3D3; /* Set background color */
+    padding: 10px; /* Add padding around the nav-bar */
 }
 
-/* Removing bullets from the list and displaying items inline */
-.navbar ul {
-    list-style: none; /* Removes bullet points */
-    padding: 0; /* Removes default padding */
-    margin: 0;  /* Removes default margin */
+/* Style for the unordered list within the nav-bar */
+.nav-list {
+    list-style: none; /* Remove bullet points from list items */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
 }
 
-/* Styling the list items */
-.navbar ul li {
-    display: inline; /* Displays list items inline (horizontally) */
-    margin-right: 1rem; /* Adds space between the list items */
+/* Style for each list item within the unordered list */
+.nav-list li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 1rem; /* Add space between list items */
 }
 
-/* Basic styling for the content */
-.content {
-    margin: 20px; /* Adds margin around the content */
-    font-family: Arial, sans-serif; /* Sets the font family */
+/* Style for the anchor links within the list items */
+.nav-list li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set text color of links to black */
 }
 
-.content h1 {
-    color: #333; /* Dark gray color for the heading */
-}
-
-.content p {
-    color: #666; /* Lighter gray color for the paragraph */
+/* Optional: Change link color when hovered */
+.nav-list li a:hover {
+    color: #007BFF; /* Change text color on hover */
 }
