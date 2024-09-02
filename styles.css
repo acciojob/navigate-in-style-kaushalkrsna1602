@@ -1,29 +1,24 @@
-/* Style for the navigation bar */
-.nav-bar {
-    background-color: #D3D3D3; /* Set background color */
-    padding: 10px; /* Add padding around the nav-bar */
+nav {
+    background-color: #D3D3D3;
+    padding: 10px;
 }
 
-/* Style for the unordered list within the nav-bar */
-.nav-list {
-    list-style: none; /* Remove bullet points from list items */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
+nav ul {
+    list-style: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
 }
 
-/* Style for each list item within the unordered list */
-.nav-list li {
+nav ul li {
     display: inline; /* Display list items horizontally */
-    margin-right: 1rem; /* Add space between list items */
+    margin-right: 1rem; /* Add space between items */
 }
 
-/* Style for the anchor links within the list items */
-.nav-list li a {
+nav ul li a {
     text-decoration: none; /* Remove underline from links */
-    color: black; /* Set text color of links to black */
+    color: black; /* Set text color for links */
 }
 
-/* Optional: Change link color when hovered */
-.nav-list li a:hover {
-    color: #007BFF; /* Change text color on hover */
+nav ul li a:hover {
+    color: blue; /* Optional: Change color on hover */
 }
