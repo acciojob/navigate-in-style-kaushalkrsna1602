@@ -1,24 +1,18 @@
-nav {
-    background-color: #D3D3D3;
-    padding: 10px;
+/* Nav-bar styles */
+.nav-bar {
+    background-color: #D3D3D3; /* Light grey background */
+    padding: 10px;            /* Padding around the nav-bar */
+    list-style: none;          /* Remove bullets */
 }
 
-nav ul {
-    list-style: none; /* Remove bullets */
-    margin: 0;
-    padding: 0;
+/* List items should be displayed inline */
+.nav-bar li {
+    display: inline;           /* Inline display for horizontal layout */
+    margin-right: 1rem;        /* Margin between list items */
 }
 
-nav ul li {
-    display: inline; /* Display list items horizontally */
-    margin-right: 1rem; /* Add space between items */
-}
-
-nav ul li a {
-    text-decoration: none; /* Remove underline from links */
-    color: black; /* Set text color for links */
-}
-
-nav ul li a:hover {
-    color: blue; /* Optional: Change color on hover */
+/* Anchor styling */
+.nav-bar li a {
+    text-decoration: none;     /* Remove underline from links */
+    color: black;              /* Text color */
 }
